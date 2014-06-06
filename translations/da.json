@@ -1,0 +1,63 @@
+{
+  "app": {
+    "description": {
+      "title": "Giphy App description",
+      "value": "Den bedste måde at søge, delete og opdage GIF'er på internettet"
+    },
+    "package": "giphy_app"
+  },
+  "error_403": {
+    "anchor": {
+      "title": "Error anchor text",
+      "value": "Zendesk Markdown Feature"
+    },
+    "description_admin": {
+      "title": "Admin error description if the app cannot be used",
+      "value": "Aktiver Markdown i dag."
+    },
+    "description_agent": {
+      "title": "Agent error description if the app cannot be used",
+      "value": "Kontakt din Zendesk administrator for at aktivere Markdown."
+    },
+    "title": {
+      "title": "Error title if the app cannot be used",
+      "value": "Lyst til at tilføje lækre GIF’er til dine tickets?"
+    }
+  },
+  "error_404": {
+    "title": "Error if an image cannot be found",
+    "value": "Din søgning på <strong>{{search}}</strong> fandt ingen GIF’er"
+  },
+  "footer": {
+    "image": {
+      "title": "Footer image alt text",
+      "value": "Understøttet af Giphy"
+    }
+  },
+  "image": {
+    "click": {
+      "title": "Image overlay text",
+      "value": "Klik for at tilføje"
+    },
+    "clicked": {
+      "title": "Image onclick text",
+      "value": "Tilføjet"
+    },
+    "example": {
+      "title": "Search example text",
+      "value": "Nogle ideer: thumbs up, omg, #mindblown"
+    },
+    "preview": {
+      "title": "Image preview instruction text",
+      "value": "Klik Eksempel for at se din GIF live"
+    },
+    "search": {
+      "title": "Search input field placeholder text",
+      "value": "Søg GIF’er"
+    },
+    "submit": {
+      "title": "Image input field alt text",
+      "value": "Genindlæs"
+    }
+  }
+}

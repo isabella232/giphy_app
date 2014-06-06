@@ -1,0 +1,10 @@
+<header>
+  <span class="logo"/>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main/>
+<footer>
+  <a href="http://giphy.com/" rel="nofollow" target="_blank">
+    <img alt="{{t "footer.image"}}" src="{{assetURL "powered-by-giphy.gif"}}" />
+  </a>
+</footer>

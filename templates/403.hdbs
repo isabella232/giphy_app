@@ -1,0 +1,8 @@
+<div class="error _403">
+  <p>{{{t "error_403.title"}}}</p>
+  {{#if admin}}
+  <p><a href="#/admin/tickets">{{t "error_403.description_admin"}}</a></p>
+  {{else}}
+  {{t "error_403.description_agent"}}
+  {{/if}}
+</div>

@@ -1,0 +1,26 @@
+{
+  "author": {
+    "email": "jzempel@zendesk.com",
+    "name": "Jonathan Zempel",
+    "url": "http://zendesk.com"
+  },
+  "defaultLocale": "en",
+  "frameworkVersion": "1.0",
+  "location": "ticket_sidebar",
+  "name": "Giphy App",
+  "private": false,
+  "parameters": [
+    {
+      "default": "reaction",
+      "name": "tag",
+      "type": "hidden"
+    },
+    {
+      "default": "iEVMAJcGNV81q",
+      "name": "key",
+      "type": "hidden"
+    }
+  ],
+  "singleInstall": true,
+  "version": "1.0"
+}

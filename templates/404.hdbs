@@ -1,0 +1,3 @@
+<div class="error _404">
+  <p>{{{t "error_404" search=search}}}</p>
+</div>

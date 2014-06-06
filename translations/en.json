@@ -1,0 +1,63 @@
+{
+  "app": {
+    "description": {
+      "title": "Giphy App description",
+      "value": "The best way to search, share, and discover GIFs on the Internet"
+    },
+    "package": "giphy_app"
+  },
+  "error_403": {
+    "anchor": {
+      "title": "Error anchor text",
+      "value": "Zendesk Markdown Feature"
+    },
+    "description_admin": {
+      "title": "Admin error description if the app cannot be used",
+      "value": "Click here to activate"
+    },
+    "description_agent": {
+      "title": "Agent error description if the app cannot be used",
+      "value": "Contact your Admin to have it activated."
+    },
+    "title": {
+      "title": "Error title if the app cannot be used",
+      "value": "To use Giphy <strong>Agent comments processed by Markdown</strong> should be activated."
+    }
+  },
+  "error_404": {
+    "title": "Error if an image cannot be found",
+    "value": "No GIFs found for <strong>{{search}}</strong>"
+  },
+  "footer": {
+    "image": {
+      "title": "Footer image alt text",
+      "value": "Powered by Giphy"
+    }
+  },
+  "image": {
+    "click": {
+      "title": "Image overlay text",
+      "value": "Click to add"
+    },
+    "clicked": {
+      "title": "Image onclick text",
+      "value": "Successfully added"
+    },
+    "example": {
+      "title": "Search example text",
+      "value": "Some ideas: thumbs up, omg, #mindblown"
+    },
+    "preview": {
+      "title": "Image preview instruction text",
+      "value": "Click Preview to see your GIF live"
+    },
+    "search": {
+      "title": "Search input field placeholder text",
+      "value": "Search for GIFs"
+    },
+    "submit": {
+      "title": "Image input field alt text",
+      "value": "Submit"
+    }
+  }
+}

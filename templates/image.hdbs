@@ -1,0 +1,12 @@
+<form>
+  <input placeholder="{{t "image.search"}}" type="search" />
+  <input alt="{{t "image.submit"}}" src="{{assetURL "refresh.png"}}" type="image" />
+  <p>{{t "image.example"}}</p>
+</form>
+<a class="giphy">
+  <div>
+    <strong>{{t "image.click"}}</strong>
+    <p>{{t "image.preview"}}</p>
+  </div>
+  <img alt="{{ticket.type}}" height="{{height}}" src="{{source}}" width="{{width}}" />
+</a>

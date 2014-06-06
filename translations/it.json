@@ -1,0 +1,63 @@
+{
+  "app": {
+    "description": {
+      "title": "Giphy App description",
+      "value": "Il miglior modo per cercare, condividere e trovare GIF in internet"
+    },
+    "package": "giphy_app"
+  },
+  "error_403": {
+    "anchor": {
+      "title": "Error anchor text",
+      "value": "Funzionalità Markdown di Zendesk"
+    },
+    "description_admin": {
+      "title": "Admin error description if the app cannot be used",
+      "value": "Clicca qui per attivare"
+    },
+    "description_agent": {
+      "title": "Agent error description if the app cannot be used",
+      "value": "Conttatta l’amministratore per attivarla."
+    },
+    "title": {
+      "title": "Error title if the app cannot be used",
+      "value": "Per usare Giphy <strong>gli agenti devono avere il Markdwon attivato</strong> per i commenti."
+    }
+  },
+  "error_404": {
+    "title": "Error if an image cannot be found",
+    "value": "Nessuna GIF trovate per <strong>{{search}}</strong>"
+  },
+  "footer": {
+    "image": {
+      "title": "Footer image alt text",
+      "value": "Offerto da Giphy"
+    }
+  },
+  "image": {
+    "click": {
+      "title": "Image overlay text",
+      "value": "Clicca per aggiungere"
+    },
+    "clicked": {
+      "title": "Image onclick text",
+      "value": "Aggiunta correttamente"
+    },
+    "example": {
+      "title": "Search example text",
+      "value": "Suggerimenti: thumbs up, omg, #mindblown"
+    },
+    "preview": {
+      "title": "Image preview instruction text",
+      "value": "Clicca Anteprima per vedere la tua immagine GIF"
+    },
+    "search": {
+      "title": "Search input field placeholder text",
+      "value": "Cerca GIF"
+    },
+    "submit": {
+      "title": "Image input field alt text",
+      "value": "Invia"
+    }
+  }
+}
