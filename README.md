@@ -1,22 +1,43 @@
-# Giphy
+:warning: *Use of this software is subject to important terms and conditions as set forth in the License file* :warning:
+
+# Giphy App
+
+## Description:
 
 Add GIFs to your Zendesk through the Giphy App! Search for your favorite GIFs
 using keywords and hashtags or simply let Giphy choose the GIF for you. In
 addition to displaying a GIF to make answering tickets more enjoyable, the
-Giphy App lets you place GIFs directly in your ticket comment. This app
-definitely serves a legitimate business purpose and is in no way a waste of time!
+Giphy App lets you place GIFs directly in your ticket comment.
 
-### The following information is displayed:
+## App location:
+
+* Ticket sidebar
+
+## Features:
 
 * The Giphy search bar.
 * Animated GIF that can be added to ticket comments.
 
-### Screenshot:
+## Set-up/installation instructions:
 
-![Giphy](http://cl.ly/image/2K290r3Y1e3X/mind-blown.png)
+* [Enable Markdown](https://support.zendesk.com/entries/22610681-Enabling-Markdown).
+* Install and activate the app, then open a ticket.
 
-### Product demo:
-http://screencast.com/t/XUBCvkwG
+## Contribution:
 
-### Product presentation:
-https://drive.google.com/a/zendesk.com/file/d/0B7Vo3cSLRWdWTGwzS2dwS1ZlTFE/edit?usp=sharing (it is a Keynote V6)
+Special thanks to the following contributors:
+
+* @rollingpierre
+* @ccolding
+* @jordanbrower
+* @KnappZen
+* @mariasica
+* @mbulnes
+
+Pull requests are welcome.
+
+## Screenshot:
+
+![Giphy](http://cl.ly/image/1e1z1v341a2g/mind-blown.png)
+
+**[Screencast](http://screencast.com/t/XUBCvkwG)**
