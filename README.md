@@ -27,12 +27,12 @@ Giphy App lets you place GIFs directly in your ticket comment.
 
 Special thanks to the following contributors:
 
-* @rollingpierre
-* @ccolding
-* @jordanbrower
-* @KnappZen
-* @mariasica
-* @mbulnes
+* [rollingpierre](https://github.com/rollingpierre)
+* [ccolding](https://github.com/ccolding)
+* [jordanbrower](https://github.com/jordanbrower)
+* [KnappZen](https://github.com/KnappZen)
+* [mariasica](https://github.com/mariasica)
+* [mbulnes](https://github.com/mbulnes)
 
 Pull requests are welcome.
 
