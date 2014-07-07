@@ -1,3 +1,5 @@
-<h4 style="text-align: center; margin: 10px 0px 20px 0px;">NSFW content</h4>
-<p>Giphy may display images that are inappropriate for work. Click "I accept" if you understand that risk.</p>
-<p style="text-align: center; margin: 10px 0px 20px 0px;"><a href="#" class="btn nsfw-accept">I accept</a></p>
+<div class="nsfw">
+  <strong>{{t "nsfw.title"}}</strong>
+  <p>{{t "nsfw.description"}}</p>
+  <button class="btn">{{t "nsfw.accept"}}</button>
+</div>
