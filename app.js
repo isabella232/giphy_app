@@ -6,8 +6,20 @@
         this.key = this._parameter("key") || this.resources.KEY;
         this.tag = this._parameter("tag") || this.resources.TAG;
         this.store("search", '');
-        this.ajax("getAccountSettings");
 
+        if(this.store("nsfw") == 'agreed') {
+          this.ajax("getAccountSettings");
+        }
+
+        else {
+          this.switchTo("nsfw");
+        }
+      },
+
+      "click .nsfw-accept": function(event) {
+        event.preventDefault();
+        this.store("nsfw", "agreed");
+        this.ajax("getAccountSettings");
       },
 
       "click .giphy:not('.clicked')": function(event) {
@@ -135,7 +147,7 @@
     },
 
     resources: {
-      KEY: "dc6zaTOxFJmzC",
+      KEY: "iEVMAJcGNV81q",
       TAG: "reaction",
       URI_ACCOUNT_SETTINGS: "/api/v2/account/settings.json",
       URL: "http://api.giphy.com/v1/gifs/%@"
