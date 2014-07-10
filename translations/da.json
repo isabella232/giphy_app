@@ -59,5 +59,19 @@
       "title": "Image input field alt text",
       "value": "Genindlæs"
     }
+  },
+  "nsfw": {
+    "accept": {
+      "title": "NSFW button text",
+      "value": "Jeg accepterer"
+    },
+    "description": {
+      "title": "NSFW description text",
+      "value": "Giphy kan vise billeder, der er upassende for arbejde. Klik på \"Jeg accepterer\", hvis du forstår, at risiko."
+    },
+    "title": {
+      "title": "NSFW title text",
+      "value": "NSFW Indhold"
+    }
   }
 }
