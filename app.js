@@ -7,19 +7,22 @@
         this.tag = this._parameter("tag") || this.resources.TAG;
         this.store("search", '');
 
-        if(this.store("nsfw") == 'agreed') {
+        if(this.store("nsfw") == this.resources.NSFW) {
           this.ajax("getAccountSettings");
         }
-
         else {
           this.switchTo("nsfw");
         }
       },
 
-      "click .nsfw-accept": function(event) {
-        event.preventDefault();
-        this.store("nsfw", "agreed");
+      "click .nsfw > button": function(event) {
+        var spinner = this.renderTemplate("loading");
+
+        this.$(".nsfw").replaceWith(spinner);
+        this.store("nsfw", this.resources.NSFW);
         this.ajax("getAccountSettings");
+
+        return false;
       },
 
       "click .giphy:not('.clicked')": function(event) {
@@ -28,12 +31,10 @@
         var comment = this.comment();
         var format;
 
-        if (comment.text())
-        {
+        if (comment.text()) {
           format = "%@\n![%@](%@)";
         }
-        else
-        {
+        else {
           format = "%@![%@](%@)";
         }
 
@@ -148,6 +149,7 @@
 
     resources: {
       KEY: "iEVMAJcGNV81q",
+      NSFW: "accepted",
       TAG: "reaction",
       URI_ACCOUNT_SETTINGS: "/api/v2/account/settings.json",
       URL: "http://api.giphy.com/v1/gifs/%@"

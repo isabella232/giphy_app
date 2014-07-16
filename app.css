@@ -116,6 +116,26 @@ header {
   }
 }
 
+.nsfw {
+  min-height: 287px;
+  text-align: center;
+
+  & > * {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  p {
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  strong {
+    display: inline-block;
+    margin-top: 65px;
+  }
+}
+
 .spinner {
   margin: 0;
   min-height: 287px;

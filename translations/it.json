@@ -59,5 +59,19 @@
       "title": "Image input field alt text",
       "value": "Invia"
     }
+  },
+  "nsfw": {
+    "accept": {
+      "title": "NSFW button text",
+      "value": "Accetto"
+    },
+    "description": {
+      "title": "NSFW description text",
+      "value": "Giphy potrebbe mostrare immagini non adatte al luogo di lavoro. Clicca su \"Accetto\" per confermare di aver compreso i rischi."
+    },
+    "title": {
+      "title": "NSFW title text",
+      "value": "Contenuto NSFW"
+    }
   }
 }
