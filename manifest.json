@@ -11,6 +11,11 @@
   "private": false,
   "parameters": [
     {
+      "default": "PG",
+      "name": "rating",
+      "type": "text"
+    },
+    {
       "default": "reaction",
       "name": "tag",
       "type": "hidden"
@@ -22,5 +27,5 @@
     }
   ],
   "singleInstall": true,
-  "version": "1.1"
+  "version": "1.2"
 }

@@ -4,7 +4,19 @@
       "title": "Giphy App description",
       "value": "Il miglior modo per cercare, condividere e trovare GIF in internet"
     },
-    "package": "giphy_app"
+    "package": "giphy_app",
+    "parameters": {
+      "rating": {
+        "label": {
+          "title": "Rating field label text",
+          "value": "Rating"
+        },
+        "helpText": {
+          "title": "Rating field help text",
+          "value": "Il più alto livello di rating MPAA per i contenuti che Giphy dovrebbe mostrare: G, PG, PG-13 o R"
+        }
+      }
+    }
   },
   "error_403": {
     "anchor": {
@@ -58,20 +70,6 @@
     "submit": {
       "title": "Image input field alt text",
       "value": "Invia"
-    }
-  },
-  "nsfw": {
-    "accept": {
-      "title": "NSFW button text",
-      "value": "Accetto"
-    },
-    "description": {
-      "title": "NSFW description text",
-      "value": "Giphy potrebbe mostrare immagini non adatte al luogo di lavoro. Clicca su \"Accetto\" per confermare di aver compreso i rischi."
-    },
-    "title": {
-      "title": "NSFW title text",
-      "value": "Contenuto NSFW"
     }
   }
 }

@@ -4,7 +4,19 @@
       "title": "Giphy App description",
       "value": "Den bedste måde at søge, delete og opdage GIF'er på internettet"
     },
-    "package": "giphy_app"
+    "package": "giphy_app",
+    "parameters": {
+      "rating": {
+        "label": {
+          "title": "Rating field label text",
+          "value": "Rating"
+        },
+        "helpText": {
+          "title": "Rating field help text",
+          "value": "Det højeste MPAA rating niveau for indhold, der Giphy skal vise: G, PG, PG-13, eller R"
+        }
+      }
+    }
   },
   "error_403": {
     "anchor": {
@@ -58,20 +70,6 @@
     "submit": {
       "title": "Image input field alt text",
       "value": "Genindlæs"
-    }
-  },
-  "nsfw": {
-    "accept": {
-      "title": "NSFW button text",
-      "value": "Jeg accepterer"
-    },
-    "description": {
-      "title": "NSFW description text",
-      "value": "Giphy kan vise billeder, der er upassende for arbejde. Klik på \"Jeg accepterer\", hvis du forstår, at risiko."
-    },
-    "title": {
-      "title": "NSFW title text",
-      "value": "NSFW Indhold"
     }
   }
 }
