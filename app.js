@@ -5,24 +5,14 @@
       "app.activated": function() {
         this.key = this._parameter("key") || this.resources.KEY;
         this.tag = this._parameter("tag") || this.resources.TAG;
+        this.rating = (this._parameter("rating") || this.resources.RATING).toLowerCase();
+
+        if (!_.contains(this.resources.MPAA, this.rating)) {
+          this.rating = this.resources.RATING;
+        }
+
         this.store("search", '');
-
-        if(this.store("nsfw") == this.resources.NSFW) {
-          this.ajax("getAccountSettings");
-        }
-        else {
-          this.switchTo("nsfw");
-        }
-      },
-
-      "click .nsfw > button": function(event) {
-        var spinner = this.renderTemplate("loading");
-
-        this.$(".nsfw").replaceWith(spinner);
-        this.store("nsfw", this.resources.NSFW);
         this.ajax("getAccountSettings");
-
-        return false;
       },
 
       "click .giphy:not('.clicked')": function(event) {
@@ -120,6 +110,7 @@
         return {
           data: {
             api_key: this.key,
+            rating: this.rating,
             tag: tag
           },
           dataType: "json",
@@ -135,6 +126,7 @@
         return {
           data: {
             api_key: this.key,
+            rating: this.rating,
             s: term
           },
           dataType: "json",
@@ -149,10 +141,11 @@
 
     resources: {
       KEY: "iEVMAJcGNV81q",
-      NSFW: "accepted",
+      MPAA: ['g', "pg", "pg-13", 'r'],
+      RATING: "pg",
       TAG: "reaction",
       URI_ACCOUNT_SETTINGS: "/api/v2/account/settings.json",
-      URL: "http://api.giphy.com/v1/gifs/%@"
+      URL: "http://api.giphy.com/v1/gifs/%@",
     },
 
     _error: function() {

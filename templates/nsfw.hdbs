@@ -1,5 +1,0 @@
-<div class="nsfw">
-  <strong>{{t "nsfw.title"}}</strong>
-  <p>{{t "nsfw.description"}}</p>
-  <button class="btn">{{t "nsfw.accept"}}</button>
-</div>
